@@ -1,0 +1,27 @@
+{
+    "name": "internetmarketingsolutions/isotope-newsletter-subscription",
+    "type": "contao-module",
+    "description": "add a simple newsletter subscription (double opt-in) on member based",
+    "keywords": ["contao", "isotope", "newsletter", "newsletter subscription"],
+    "license": "LGPLv3",
+    "authors": [
+        {
+            "name": "Dominik Zogg",
+            "email": "dz@erfolgreiche-internetseiten.ch"
+        }
+    ],
+    "require": {
+        "php": ">=5.2",
+        "contao/core": "2.11.*"
+    },
+    "autoload": {
+        "classmap": ["src/"]
+    },
+    "extra": {
+        "contao": {
+            "symlinks": {
+                "src/system/modules/isotope_newsletter_subscription": "system/modules/isotope_newsletter_subscription"
+            }
+        }
+    }
+}
