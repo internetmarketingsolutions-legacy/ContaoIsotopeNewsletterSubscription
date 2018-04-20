@@ -17,6 +17,7 @@
     "autoload": {
         "classmap": ["src/"]
     },
+    "abandoned": true,
     "extra": {
         "contao": {
             "symlinks": {
